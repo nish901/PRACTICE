@@ -1,1 +1,4 @@
 hello world - I have also made changes
+=======
+hello world - someone else has made changes
+Now we'll have both lines
