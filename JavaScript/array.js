@@ -29,12 +29,15 @@ if (lukeIsHere == true) {
 
 let output = '';
 for (let i = 0, j = quote.length; i < j; i++) {
+    // the last word
     if (i === j - 1) {
         output += quote[i] + '!';
+        // finding the index of the first word and adding a , next to that index
     } else if (quote[i] === 'No') {
         output += quote[i] + ', ';
     } else {
-        output += quote[i] + ' '
+        // this refers to the middle words, and adds a space
+        output += quote[i] + ' '  
     }
 }
 console.log(output)
