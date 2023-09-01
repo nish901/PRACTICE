@@ -9,5 +9,5 @@ if (age <= 17) {
 }
 
 
-// let result = (age>=18)? "underage": "legal" 
-// console.log(result)
+let result = (age>=18)? (age<=65 ?"over 18 and under 65": "over 65") :  "underage";
+console.log(result)
