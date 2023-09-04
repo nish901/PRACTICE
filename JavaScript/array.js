@@ -46,7 +46,8 @@ console.log(output)
 
 let out = ''
 
-for(const element of quote) {
+// of for Array, in in object
+for(const element of quote) {   
     out+= element+" " 
 
 }
